@@ -4,10 +4,16 @@ run:
 go:
 	go build
 
+wasm: export GOOS=js
+wasm: export GOARCH=wasm
 wasm:
-	GOOS=js GOARCH=wasm go build -o assets/main.wasm
+	go build -o assets/main.wasm
 
 css:
+	npx tailwindcss-cli@latest build assets/config.css -o assets/styles.css
+
+build: export NODE_ENV=production
+build:
 	npx tailwindcss-cli@latest build assets/config.css -o assets/styles.css
 
 lambda:
