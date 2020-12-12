@@ -1,0 +1,21 @@
+# github.com/akrylysov/algnhsa v0.12.1
+github.com/akrylysov/algnhsa
+# github.com/aws/aws-lambda-go v1.20.0
+github.com/aws/aws-lambda-go/events
+github.com/aws/aws-lambda-go/lambda
+github.com/aws/aws-lambda-go/lambda/handlertrace
+github.com/aws/aws-lambda-go/lambda/messages
+github.com/aws/aws-lambda-go/lambdacontext
+# github.com/gobuffalo/here v0.6.0
+github.com/gobuffalo/here
+# github.com/markbates/pkger v0.17.1
+github.com/markbates/pkger
+github.com/markbates/pkger/here
+github.com/markbates/pkger/internal/maps
+github.com/markbates/pkger/pkging
+github.com/markbates/pkger/pkging/stdos
+# github.com/pyros2097/wapp v0.2.1
+## explicit
+github.com/pyros2097/wapp
+github.com/pyros2097/wapp/errors
+github.com/pyros2097/wapp/js

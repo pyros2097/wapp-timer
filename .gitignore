@@ -20,4 +20,3 @@ test
 *.wasm
 main
 build
-vendor
