@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "churchtimer-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-grb3hle00qk9"
+s3_prefix = "churchtimer-app"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "DomainName=\"churchtimer.app\" HostedZoneId=\"Z0910050YCHT3OHGUI5O\" AcmCertificateArn=\"arn:aws:acm:us-east-1:719747015987:certificate/56d417b0-1b6c-4a8c-bfaf-52a531d0554b\""
+
