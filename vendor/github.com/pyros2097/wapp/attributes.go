@@ -69,6 +69,7 @@ func mergeAttributes(parent *elem, uis ...interface{}) {
 			helmet.Keywords = string(c)
 		case UI:
 			elems = append(elems, c)
+		case nil:
 		default:
 			panic("unknown type in render")
 		}

@@ -64,7 +64,7 @@ func Col(uis ...interface{}) UI {
 	return Div(append([]interface{}{Css("flex flex-col justify-center items-center")}, uis...)...)
 }
 
-func If(expr bool, a UI, b UI) UI {
+func If(expr bool, a UI) UI {
 	if expr {
 		return a
 	}
