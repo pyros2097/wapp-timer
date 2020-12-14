@@ -11532,7 +11532,7 @@ video {
 }
 
 .text-10xl {
-  font-size: 10rem;
+  font-size: 20rem;
   line-height: 1;
 }
 
@@ -42164,7 +42164,7 @@ html, body {
   }
 
   .sm\:text-10xl {
-    font-size: 10rem;
+    font-size: 20rem;
     line-height: 1;
   }
 
@@ -72713,7 +72713,7 @@ html, body {
   }
 
   .md\:text-10xl {
-    font-size: 10rem;
+    font-size: 20rem;
     line-height: 1;
   }
 
@@ -103262,7 +103262,7 @@ html, body {
   }
 
   .lg\:text-10xl {
-    font-size: 10rem;
+    font-size: 20rem;
     line-height: 1;
   }
 
@@ -133811,7 +133811,7 @@ html, body {
   }
 
   .xl\:text-10xl {
-    font-size: 10rem;
+    font-size: 20rem;
     line-height: 1;
   }
 
@@ -164360,7 +164360,7 @@ html, body {
   }
 
   .\32xl\:text-10xl {
-    font-size: 10rem;
+    font-size: 20rem;
     line-height: 1;
   }
 
