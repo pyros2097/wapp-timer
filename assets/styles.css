@@ -200,9 +200,7 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button,
-[type='button'],
-[type='reset'] {
+button {
   -webkit-appearance: button;
 }
 
@@ -710,10 +708,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -784,14 +778,6 @@ video {
 .text-red-900 {
   --tw-text-opacity: 1;
   color: rgba(127, 29, 29, var(--tw-text-opacity));
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
 }
 
 .select-none {

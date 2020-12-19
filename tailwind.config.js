@@ -1,8 +1,13 @@
 module.exports = {
-    purge: [
-        './*.go',
-        './vendor/github.com/pyros2097/wapp/*.go',
-    ],
+    purge: {
+        content: [
+            './*.go',
+            './vendor/github.com/pyros2097/wapp/*.go',
+        ],
+        options: {
+            safelist: ['flex', 'flex-row', 'justify-center', 'items-center'],
+        }
+    },
     theme: {
         extend: {
             fontSize: {
@@ -12,8 +17,8 @@ module.exports = {
     },
     variants: {
         extend: {
-          opacity: ['disabled'],
+            opacity: ['disabled'],
         }
-      },
+    },
     plugins: [],
 }
