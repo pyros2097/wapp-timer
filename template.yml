@@ -111,7 +111,7 @@ Resources:
           AcmCertificateArn: !Ref AcmCertificateArn
           MinimumProtocolVersion: TLSv1.2_2018
           SslSupportMethod: sni-only
-          
+
   DNSRecordSet:
     Type: AWS::Route53::RecordSet
     Properties:
