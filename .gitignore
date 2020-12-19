@@ -20,3 +20,4 @@ test
 *.wasm
 main
 build
+wapp-timer

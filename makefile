@@ -1,9 +1,6 @@
 run:
 	go run *.go
 
-go:
-	go build
-
 wasm: export GOOS=js
 wasm: export GOARCH=wasm
 wasm:
@@ -15,9 +12,14 @@ css:
 build: export NODE_ENV=production
 build:
 	npx tailwindcss-cli@latest build assets/config.css -o assets/styles.css
+	go build
+	go build -o assets/main.wasm
 
-lambda:
+local:
 	sam local start-api
 
 sync:
-	aws s3 sync ./assets --delete public --dryrun s3://go-app-bucket-111
+	aws s3 sync ./assets s3://timer.pyros2097.dev/assets --delete
+
+deploy:
+	sam deploy

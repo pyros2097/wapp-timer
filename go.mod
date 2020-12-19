@@ -1,4 +1,4 @@
-module github.com/pyros2097/timer
+module github.com/pyros2097/wapp-timer
 
 go 1.15
 
