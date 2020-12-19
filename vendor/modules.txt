@@ -14,7 +14,7 @@ github.com/markbates/pkger/here
 github.com/markbates/pkger/internal/maps
 github.com/markbates/pkger/pkging
 github.com/markbates/pkger/pkging/stdos
-# github.com/pyros2097/wapp v0.2.1
+# github.com/pyros2097/wapp v0.2.2
 ## explicit
 github.com/pyros2097/wapp
 github.com/pyros2097/wapp/errors
