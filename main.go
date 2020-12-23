@@ -110,7 +110,7 @@ func Index(c *RenderContext) UI {
 		setShowModal(false)
 	}
 	return Col(Css("bg-black w-full h-full"),
-		Row(Css("flex-1 text-10xl text-white leading"),
+		Row(Css("font-body flex-1 text-8xl sm:text-10xl text-white leading"),
 			Text(pad(hours)+":"+pad(minutes)+":"+pad(seconds)),
 		),
 		Row(
